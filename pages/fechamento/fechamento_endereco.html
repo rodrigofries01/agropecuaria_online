@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="/css/style.css">
 
-  <title>Base</title>
+  <title>Finalizando Compra</title>
 </head>
 
 <body style="min-width: 372px">
@@ -65,59 +65,48 @@
   </nav>
 
   <main class="flex-fill">
-    <div class=" container">
-      <h2>Titulo da Pagina</h2>
-      <hr class="mt-3">
-      <p>
-        In do proident laboris ipsum qui et ut excepteur reprehenderit. Commodo dolore consequat et magna reprehenderit.
-        Nostrud quis elit non laboris aliquip anim cillum mollit cupidatat id. Id ullamco sint eiusmod elit ea sunt
-        nulla dolore reprehenderit et et. Lorem et tempor irure magna proident sunt dolore aliqua aute excepteur non
-        incididunt. Adipisicing sunt mollit ea ut ullamco consectetur ullamco pariatur.
-      </p>
-      <p>
-        Ea Lorem anim laborum eiusmod quis ex ut magna. Aute duis irure Lorem pariatur. Qui occaecat duis elit nostrud
-        et laboris tempor esse officia laborum et laborum commodo consequat. Reprehenderit consequat anim pariatur duis
-        culpa in dolor deserunt sint Lorem. Commodo est nostrud eu do dolore tempor. Eiusmod aute labore excepteur ipsum
-        veniam culpa sit consequat ullamco esse officia. Velit sit excepteur commodo do do mollit do.
-      </p>
-      <p>
-        Sit veniam dolor cupidatat non consequat consequat. Anim dolor proident ut ut amet et eu minim cillum ad ea
-        sint. Aute nostrud commodo quis commodo qui enim. Ullamco veniam excepteur qui magna nostrud magna sit magna.
-      </p>
-      <p>
-        In do proident laboris ipsum qui et ut excepteur reprehenderit. Commodo dolore consequat et magna reprehenderit.
-        Nostrud quis elit non laboris aliquip anim cillum mollit cupidatat id. Id ullamco sint eiusmod elit ea sunt
-        nulla dolore reprehenderit et et. Lorem et tempor irure magna proident sunt dolore aliqua aute excepteur non
-        incididunt. Adipisicing sunt mollit ea ut ullamco consectetur ullamco pariatur.
-      </p>
-      <p>
-        Ea Lorem anim laborum eiusmod quis ex ut magna. Aute duis irure Lorem pariatur. Qui occaecat duis elit nostrud
-        et laboris tempor esse officia laborum et laborum commodo consequat. Reprehenderit consequat anim pariatur duis
-        culpa in dolor deserunt sint Lorem. Commodo est nostrud eu do dolore tempor. Eiusmod aute labore excepteur ipsum
-        veniam culpa sit consequat ullamco esse officia. Velit sit excepteur commodo do do mollit do.
-      </p>
-      <p>
-        Sit veniam dolor cupidatat non consequat consequat. Anim dolor proident ut ut amet et eu minim cillum ad ea
-        sint. Aute nostrud commodo quis commodo qui enim. Ullamco veniam excepteur qui magna nostrud magna sit magna.
-      </p>
-      <p>
-        In do proident laboris ipsum qui et ut excepteur reprehenderit. Commodo dolore consequat et magna reprehenderit.
-        Nostrud quis elit non laboris aliquip anim cillum mollit cupidatat id. Id ullamco sint eiusmod elit ea sunt
-        nulla dolore reprehenderit et et. Lorem et tempor irure magna proident sunt dolore aliqua aute excepteur non
-        incididunt. Adipisicing sunt mollit ea ut ullamco consectetur ullamco pariatur.
-      </p>
-      <p>
-        Ea Lorem anim laborum eiusmod quis ex ut magna. Aute duis irure Lorem pariatur. Qui occaecat duis elit nostrud
-        et laboris tempor esse officia laborum et laborum commodo consequat. Reprehenderit consequat anim pariatur duis
-        culpa in dolor deserunt sint Lorem. Commodo est nostrud eu do dolore tempor. Eiusmod aute labore excepteur ipsum
-        veniam culpa sit consequat ullamco esse officia. Velit sit excepteur commodo do do mollit do.
-      </p>
-      <p>
-        Sit veniam dolor cupidatat non consequat consequat. Anim dolor proident ut ut amet et eu minim cillum ad ea
-        sint. Aute nostrud commodo quis commodo qui enim. Ullamco veniam excepteur qui magna nostrud magna sit magna.
-      </p>
+    <div class="container">
+      <h2>Selecione o Endereço de Entrega</h2>
+      <h5 class="mb-4">
+        Selecione o endereço de entrega e clique em <b>Continuar</b> para prosseguir para a <b>seleção da
+          forma de pagamento</b>.
+      </h5>
+      <hr>
+      <div class="d-flex justify-content-around flex-wrap border rounded-top pt-4 px-3">
+        <div class="mb-4 mx-2 flex-even">
+          <input type="radio" class="btn-check" name="endereco" autocomplete="off" id="end1">
+          <label class="btn btn-outline-success p-4 h-100 w-100" for="end1">
+            <h3>
+              <b class="text-dark">Minha Casa</b><br>
+              <hr>
+              <b>Rodrigo Fries</b><br>
+              Rua Caminho Virtual, 403<br>
+              Dois Vizinhos/CEP 85.660-000
+            </h3>
+          </label>
+        </div>
+        <div class="mb-4 mx-2 flex-even">
+          <input type="radio" class="btn-check" name="endereco" autocomplete="off" id="end3">
+          <label class="btn btn-outline-success p-4 h-100 w-100" for="end3">
+            <h3>
+              <b class="text-dark">Trabalho</b><br>
+              <hr>
+              <b>Rodrigo Fries</b><br>
+              Rua Outro Caminho Virtual, 02<br>
+              Dois Vizinhos/CEP 85.660-000
+            </h3>
+          </label>
+        </div>
+      </div>
+      <div class="text-end border border-top-0 rounded-bottom p-4 pb-0">
+        <a href="/pages/fechamento/fechamento_itens.html" class="btn btn-outline-success btn-md mb-4">
+          Voltar aos Itens
+        </a>
+        <a href="/pages/fechamento/fechamento_pagamento.html" class="btn btn-success btn-md ms-2 mb-4">Continuar</a>
+      </div>
     </div>
   </main>
+
 
   <div style="height: 273px;" class="d-block d-md-none"></div>
   <div style="height: 153px;" class="d-none d-md-block d-lg-none"></div>

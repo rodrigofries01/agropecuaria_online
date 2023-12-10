@@ -2,14 +2,8 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css">
-  <title>Política de Privacidade</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
@@ -21,6 +15,11 @@
   <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Política de Privacidade</title>
 </head>
 
 <body style="min-width: 372px">
@@ -37,25 +36,25 @@
             <a class="nav-link text-white" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/contato.html">Contato</a>
+            <a class="nav-link text-white" href="/pages/contato.html">Contato</a>
           </li>
         </ul>
 
         <div class="align-self-end">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="/cadastro.html" class="nav-link text-white">Quero Me
+              <a href="/pages/cadastro.html" class="nav-link text-white">Quero Me
                 Cadastrar</a>
             </li>
 
             <li class="nav-item">
-              <a href="/login.html" class="nav-link text-white">Entrar</a>
+              <a href="/pages/login/login.html" class="nav-link text-white">Entrar</a>
             </li>
 
             <li class="nav-item">
               <span class="badge rounded-pill bg-light text-success position-absolute ms-4 mt-0"
                 title="5 produto(s) no carrinho"><small>5</small></span>
-              <a href="/carrinho.html" class="nav-link text-white">
+              <a href="/pages/carrinho/carrinho.html" class="nav-link text-white">
                 <i class="bi-cart" style="font-size:24px;line-height:24px;"></i>
               </a>
             </li>
@@ -65,7 +64,7 @@
     </div>
   </nav>
 
-  <main>
+  <main class="flex-fill">
     <div class="container">
       <h2><span style="color: rgb(68, 68, 68);">Política Privacidade</span></h2>
       <hr class="mt-3">
@@ -120,9 +119,8 @@
         <li><span style="color: rgb(68, 68, 68);">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa
             fé a à ordem pública;</span></li>
         <li><span style="color: rgb(68, 68, 68);">B) Não difundir propaganda ou conteúdo de natureza racista,
-            xenofóbica, </span><span style="color: rgb(33, 37, 41);"><a href='https://166bet.br.com'
-              style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>166bet</a></span><span
-            style="color: rgb(68, 68, 68);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou
+            xenofóbica, </span><span style="color: rgb(33, 37, 41);"></span><span style="color: rgb(68, 68, 68);">
+            azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou
             contra os direitos humanos;</span></li>
         <li><span style="color: rgb(68, 68, 68);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos
             (softwares) do Agropecuária Online, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus
@@ -134,6 +132,11 @@
           houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados,
           caso interaja com um dos recursos que você usa em nosso site.</span></p>
       <p><span style="color: rgb(68, 68, 68);">Esta política é efetiva a partir de&nbsp;8 December 2023 16:20</span></p>
+
+      <p>
+        <a href="/index.html" class="btn btn-md btn-success">Voltar à Página Principal</a>
+      </p>
+
     </div>
   </main>
 
@@ -141,38 +144,37 @@
   <div style="height: 153px;" class="d-none d-md-block d-lg-none"></div>
   <div style="height: 129px;" class="d-none d-lg-block"></div>
 
-  <footer class="border-top fixed-bottom text-muted bg-light">
+  <footer class="border-top text-muted bg-light">
     <div class="container">
       <div class="row py-3">
         <div class="col-12 col-md-4 text-center">
-            &copy; 2023 - Agropecuaria Online<br>
-            UTFPR - Dois Vizinhos/PR <br>
-            CPNJ 99.999.999/0001-99
+          &copy; 2023 - Agropecuaria Online<br>
+          UTFPR - Dois Vizinhos/PR <br>
+          CPNJ 99.999.999/0001-99
         </div>
         <div class="col-12 col-md-4 text-center">
-            <a href="/pages/privacidade.html" class="text-decoration-none text-dark">
-                Política de Privacidade
-            </a><br>
-            <a href="/pages/termos.html" class="text-decoration-none text-dark">
-                Termos de Uso
-            </a><br>
-            <a href="/pages/quemsomos.html" class="text-decoration-none text-dark">
-                Quem Somos
-            </a><br>
+          <a href="/privacidade.html" class="text-decoration-none text-dark">
+            Política de Privacidade
+          </a><br>
+          <a href="/termos.html" class="text-decoration-none text-dark">
+            Termos de Uso
+          </a><br>
+          <a href="/quemsomos.html" class="text-decoration-none text-dark">
+            Quem Somos
+          </a><br>
         </div>
         <div class="col-12 col-md-4 text-center">
-            <a href="/pages/contato.html" class="text-decoration-none text-dark">
-                Contato
-            </a><br>
-            E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">
-                email@dominio.com
-            </a><br>
-            Telefone: <a href="phone:4640028922" class="text-decoration-none text-dark">
-                (46) 4002-8922
-            </a>
+          <a href="/contato.html" class="text-decoration-none text-dark">
+            Contato pelo Site
+          </a><br>
+          E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">
+            email@dominio.com
+          </a><br>
+          Telefone: <a href="phone:4640028922" class="text-decoration-none text-dark">
+            (46) 4002-8922
+          </a>
         </div>
-    </div>
-</div>
+      </div>
     </div>
   </footer>
 
